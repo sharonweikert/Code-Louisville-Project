@@ -1,13 +1,39 @@
 h1 {
-    color:blue;
+    color:rgb(1, 1, 12);
 }
-h2 {color: pink;
+h2 {color: rgb(15, 1, 4);
 }
+h3 {color: rgb(10, 8, 1);}
 
 body {
-    background-color: cornflowerblue;
+    background-color: rgb(94, 118, 167);
 }
 
-div {
-    background-color: cornsilk;
+
+/*for tablets*/
+@media screen and (min-width: 800px) {
+    section .row {
+        max-width: 800 px;
+        margin: auto;
+        display: flex;
+        justify-content: space between;
+    }
+    section .row .col {
+        padding: 1rem;
+        flex-grow: 1;
+    }
 }
+/*for large screens*/
+@media screen and (min-width: 1200px) {
+    section .row {
+        max-width: 1200 px;
+    }
+}
+#title {
+    text-align: center;
+}
+#head {
+    text-align: center;
+}
+
+    
