@@ -5,10 +5,17 @@ h2 {color: rgb(15, 1, 4);
 }
 h3 {color: rgb(10, 8, 1);}
 
+
+
 body {
     background-color: rgb(94, 118, 167);
+    text-align: center;
 }
-
+footer {
+    clear: both;
+    width: 100%;
+    text-align: center;
+}
 
 /*for tablets*/
 @media screen and (min-width: 800px) {
@@ -23,6 +30,7 @@ body {
         flex-grow: 1;
     }
 }
+
 /*for large screens*/
 @media screen and (min-width: 1200px) {
     section .row {
@@ -35,5 +43,15 @@ body {
 #head {
     text-align: center;
 }
+
+    div {
+        
+        border-top: cornsilk;
+        font-weight: bold;
+        text-align: center;
+    }
+
+
+
 
     
