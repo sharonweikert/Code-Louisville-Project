@@ -1,3 +1,13 @@
+
+* {
+    margin: 0;
+}
+
+html,
+body {
+    height:100%
+}
+
 body {
     background-color: cornflowerblue;
     text-align: center;
@@ -18,40 +28,18 @@ h3 {color: navy(10, 8, 1);
     padding-left: 5%;
     padding-right: 5%;
 
-
-/*for tablets*/
-@media screen and (min-width: 800px) {
-    section .row {
-        max-width: 800 px;
-        margin: auto;
-        display: flex;
-        justify-content: space between;
-    }
-    section .row .col {
-        padding: 1rem;
-        flex-grow: 1;
-    }
-}
-
-/*for large screens*/
-@media screen and (min-width: 1200px) {
-    section .row {
-        max-width: 1200 px;
+.title {
+    text-align: center
     }
 
-#title {
-    {text-align: center;
-}
+
 #head {
     text-align: center;
 }
 
-
-
     div {
         border-top: cornsilk;
         font-weight: bold;
-        text-align: center; }
-    }        
-}
-}
+        text-align: center; }          
+
+

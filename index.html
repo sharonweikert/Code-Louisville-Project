@@ -7,6 +7,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink to fit=no">
     <link rel="stylesheet" href="css/site.css">
 </head>
+    <style>
+        .desktop,
+        .print{
+            display: none;
+        }
+    @media print {
+        .mobile, .desktop {
+            display: none;
+        }
+    }
+    @media screen and (min-width: 768px) {
+        .mobile {
+            display: none
+        }
+        .desktop {
+            display: block;
+        }
+    }
+ </style>
+
+    
     
 <style>
    .columns {
@@ -17,16 +38,37 @@
 .columns {
     border: solid 1px black;
     flex:3;
-
 } 
 
 </style>
+
+<header>
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    
+
+</main>
+
 <body>
+    <div class="desktop">Desktop</div>
+    <div class="mobile">Mobile</div>
+    <div class="print">Print</div>
+
     <section>
         <div id = "title">
         <h1>Louisville Healthcare</h1>
-       
+    
     </div>
+
+
     </section>
 
     <div id = "head">
@@ -62,7 +104,7 @@
     <script src="js/site.js"></script>
 </body>
 <footer>
-    Contact us at Louisville Healthcare
+    
 </footer>
 <script type="text/javascript">
     alert("Welcome to the 5 Star rated Louisville Healthcare");
