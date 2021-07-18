@@ -1,21 +1,30 @@
-h1 {
-    color:rgb(1, 1, 12);
-}
-h2 {color: rgb(15, 1, 4);
-}
-h3 {color: rgb(10, 8, 1);}
-
-
-
 body {
-    background-color: rgb(94, 118, 167);
+    background-color: cornflowerblue;
     text-align: center;
+    color: navy
 }
-footer {
-    clear: both;
-    width: 100%;
-    text-align: center;
+
+h1 {background-color: azure; 
+    color: rgb(10, 10, 153);
+    padding: 10%;
 }
+
+h2 {color: navy(15, 1, 4);
+    padding: 5%;
+    background-color: azure;
+}
+h3 {color: navy(10, 8, 1);
+    background-color: azure;
+    padding-left: 5%;
+    padding-right: 5%;
+
+
+
+
+ 
+
+
+
 
 /*for tablets*/
 @media screen and (min-width: 800px) {
@@ -36,13 +45,15 @@ footer {
     section .row {
         max-width: 1200 px;
     }
-}
+
 #title {
-    text-align: center;
+    {text-align: center;
 }
 #head {
     text-align: center;
 }
+
+
 
     div {
         
@@ -50,8 +61,3 @@ footer {
         font-weight: bold;
         text-align: center;
     }
-
-
-
-
-    
