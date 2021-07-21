@@ -4,104 +4,105 @@
 <head>
     <meta charset="utf-8">
     <title>Louisville HC</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink to fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/site.css">
+
 </head>
-    <style>
-        .desktop,
-        .print{
-            display: none;
-        }
-    @media print {
-        .mobile, .desktop {
-            display: none;
-        }
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+  </style>
+  </head>
+  <body>
+  
+  <div class="topnav" id="myTopnav">
+    <a href="#home" class="active">Home</a>
+    <a href="#news">News</a>
+    <a href="#contact">Contact</a>
+    <a href="#about">About</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+  
+  <div style="padding-left:16px">
+    <h2></h2>
+    <p></p>
+  </div>
+  
+  <script>
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
     }
-    @media screen and (min-width: 768px) {
-        .mobile {
-            display: none
-        }
-        .desktop {
-            display: block;
-        }
+  }
+  </script>
+  
+
+   <header>Louisville Healthcare</header> 
+
+   <style>
+    * {
+      box-sizing: border-box;
     }
- </style>
+    
+    .column {
+      float: left;
+      width: 33.33%;
+      padding: 10px;
+      height: 200px; 
+    }
 
     
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
     
-<style>
-   .columns {
-    border: solid 1px black;
-    display:flex;
+    @media screen and (max-width: 600px) {
+      .column {
+        width: 100%;
+      }
+
+    @media screen and (min-width: 601px) {
+        .column {
+            width: 100%
+        }
+    }
+    
 }
+    </style>
+    
+    <body>
+    
+    <div class="row">
+      <div class="column" style="background-color:rgb(22, 20, 119);">
+        <h3>Skilled Care</h3>
+        <p>add</p>
+      </div>
+      <div class="column" style="background-color:rgb(84, 118, 182);">
+        <h3>Personal Care</h3>
+        <p>Some text..</p>
+      </div>
+      <div class="column" style="background-color:rgb(158, 182, 248);">
+        <h3>Recovery to Home</h3>
+        <p>For those looking to recover after a hospital stay</p>
+      </div>
+    </div>
+     
 
-.columns {
-    border: solid 1px black;
-    flex:3;
-} 
 
-</style>
-
-<header>
-    <nav>
-        <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
-        </ul>
-    </nav>
-</header>
 
 <main>
     
 
 </main>
 
-<body>
-    <div class="desktop">Desktop</div>
-    <div class="mobile">Mobile</div>
-    <div class="print">Print</div>
-
-    <section>
-        <div id = "title">
-        <h1>Louisville Healthcare</h1>
-    
-    </div>
-
-
-    </section>
-
-    <div id = "head">
-       <h2>Levels of Care</h2>
-       </div>
-
-   
-        <div class="columns">
-            <div id="left">
-        <h3>Long Term Care</h3>
-        <p>For those looking for permanant residence that require assistance with
-            activities of daily living.
-        </p>
-        </div>
-            <div id = "center">
-        <h3>Personal Care</h3>
-        <p>For those looking for permanant residence that require assistance with
-            medication administration and meal preperation.
-        </p>
-    </div>
-    <div id = "right">
-        <h3>Recovery to Home</h3>
-        <p>For those looking for a short stay after a hospitalzation that require
-            therapy for recovery.
-        </p>
-    </div>
-</div>
-
-<img src="nazhome pic.jpg" alt="Pic of Nursing home"/>
-
-    
-
-    <script src="js/site.js"></script>
 </body>
 <footer>
     
