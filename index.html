@@ -6,142 +6,69 @@
     <title>Louisville HC</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/site.css">
-    
-</head>
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-  </head>
-  <body>
   
-  <div class="topnav" id="myTopnav">
-    <a href="#home" class="active">Home</a>
-    <a href="#news">News</a>
-    <a href="#contact">Contact</a>
-      <link rel="Contact" href="index2.html#contact"> 
-    <a href="#about">About</a>
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-      <i class="fa fa-bars"></i>
-    </a>
+</head>
+ 
+<body>
+
+    
+    
+    <div class="topnav" id="myTopnav">
+      <a href="#home" class="active">Home</a>
+      <a href="#news">News</a>
+      <a href="#contact">Contact</a>
+      <a href="#about">About</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    
+    <div style="padding-left:16px">
+    </div>
+   <!--do not move-->
+    <script>
+   function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+    </script>
+
+<header>
+  Louisville Healthcare
+</header>
+    
+    <h2>Levels of Care</h2>
+
+<div class="row">
+  <div class="column" style="background-color:rgb(17, 22, 85);">
+    <h2>Recovery to Home</h2>
   </div>
   
+  <div class="column" style="background-color:rgb(50, 30, 138);">
+    <h2>Skilled Nursing</h2>
+  </div>
   
+  <div class="column" style="background-color:rgb(69, 47, 192);">
+    <h2>Memory Care</h2>
+  </div>
   
-  <script>
-  function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-      x.className += " responsive";
-    } else {
-      x.className = "topnav";
-    }
-  }
-  </script>
-  
-
-   <header>Louisville Healthcare</header> 
-
-   <style>
-    * {
-      box-sizing: border-box;
-    }
-    
-    .column {
-      float: left;
-      width: 33.33%;
-      padding: 10px;
-      height: 200px; 
-    }
-
-    
-    .row:after {
-      content: "";
-      display: table;
-      clear: both;
-    }
-    
-    @media screen and (max-width: 600px) {
-      .column {
-        width: 100%;
-      }
-
-    @media screen and (min-width: 601px) {
-        .column {
-            width: 100%
-        }
-    }
-    
-}
-    </style>
-
-    <body>
-    
-    <div class="row">
-      <div class="column" style="background-color:rgb(22, 20, 119);">
-        <h3>Skilled Care</h3>
-        <p>Services<br><br>
-          <il>
-            Meals<br>
-            Assistance with activities of daily living<br>
-            Activities<br>
-            Medication Management<br>
-          </il>
-        </p>
-      </div>
-      <div class="column" style="background-color:rgb(84, 118, 182);">
-        <h3>Personal Care</h3>
-        <p>Services<br><br>
-          <il>
-            Medication Management<br>
-            Activities<br>
-            Meals<br>
-          </il>
-        </p>
-      </div>
-      <div class="column" style="background-color:rgb(158, 182, 248);">
-        <h3>Recovery to Home</h3>
-        <p>Services<br><br>
-          <il>
-          Weekly MD Visits<br>
-          Discharge planning<br>
-          Care plan meetings<br>
-          Physical, Occupational and Speech Therapy<br>
-        </il> 
-        </p>
-      </div>
-    </div>
+  <div class="column" style="background-color:rgb(101, 63, 241);">
+    <h2>Personal Care</h2>
+  </div>
+</div>
+   
 
     <img src="nazhome pic.jpg" alt="Louisville Healthcare Building" class="responsive">
-
-    
-    </style>
-    <body>
-    
-   <h2>Louisvile Healthcare Newsletter</h2>
-    
-
-   <form action="/action_page.php">
-      <div class="container">
-        <h2>Subscribe to our Newsletter</h2>
-        <p>For monthly updates regarding new and activitites at Louisville Healthcare</p>
-      </div>
-    
-      <div class="container" style="background-color:white">
-        <input type="text" placeholder="Name" name="name" required>
-        <input type="text" placeholder="Email address" name="mail" required>
-        <label>
-          <input type="checkbox" checked="checked" name="subscribe"> Monthly Newsletter
-        </label>
-      </div>
-   
-      <div class="container">
-        <input type="submit" value="Subscribe">
-      </div>
-    </form>
   
   </body>
 
-</style>    
+
 
 <footer>
   <address>
@@ -149,25 +76,13 @@
     100 Main Street <br>
     Louisville, KY 40205 <br>
     USA <br>
-    502.123.4567
+    502.123.4567 <br>
     </address>  
 
-<a href="#" class="fa fa-facebook"></a>
-<a href="#" class="fa fa-twitter"></a>
-<a href="#" class="fa fa-linkedin"></a>
-<a href="#" class="fa fa-youtube"></a>
-<a href="#" class="fa fa-instagram"></a>
+    
+
 </footer>
 
-<script type="text/javascript">
-    alert("Welcome to the 5 Star rated Louisville Healthcare");
-</script>
 
-<script>
-  a = 5;
-  b = 6;
-  c = a + b;
-  console.log(c);
-  </script> 
 
 </html>
