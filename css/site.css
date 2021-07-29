@@ -78,13 +78,12 @@ h2 {
   box-sizing: border-box;
 }
 
-/* Container for flexboxes */
 .row {
   display: flex;
   flex-wrap: wrap;
 }
 
-/* Create four equal columns */
+
 .column {
   flex: 25%;
   padding: 40px;
@@ -94,14 +93,14 @@ h2 {
   border-color: light rgb(141, 139, 139);
 }
 
-/* On screens that are 992px wide or less, go from four columns to two columns */
+
 @media screen and (max-width: 992px) {
   .column {
     flex: 50%;
   }
 }
 
-/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+
 @media screen and (max-width: 600px) {
   .row {
     flex-direction: column;
@@ -112,6 +111,7 @@ img {
   align-items: center;
   width: 99%;
 }
+
 
 h3 {
   padding: 25px;
@@ -127,6 +127,8 @@ form {
   background-color: #f1f1f1;
   border-style: solid;
   border-color: black;
+  width: 400px;
+  margin: 30px auto 0 auto;
 }
 
 input[type=text], input[type=submit] {
@@ -157,14 +159,9 @@ h3 {
   margin: 5px 2px;
   border-radius: 50%;
 }
-
-.fa:hover {
-    opacity: 0.7;
-}
-
 .fa-facebook {
   background: #3B5998;
-  color: white;
+  color: white
 }
 
 .fa-twitter {
@@ -186,6 +183,10 @@ h3 {
   background: #125688;
   color: white;
 }
+.social {
+  text-align: right;
+}
+
 
 
 
