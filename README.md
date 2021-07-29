@@ -10,7 +10,8 @@ Highlighting some of the features in my website for the required elements, I hav
 5.  Videos completed at 100%
 6.  2 Online tech events
 7.  Job readiness course completed
-8.  Commits
+8.  32 Commits
+9.  Since I was not able to validate the email, I did add a photo gallery to the about page. I will need to finalize the page by adding the nav bar to the top and some extra CSS features.
 
 I do plan to keep building on this website for practice. I realize that it is quite simple, but it is a start. I would like to link muliple pages together from the Nav Bar. I had planned on trying to validate the email on the newsletter signup, but I just could not seem to get it and ran out of time.
 
